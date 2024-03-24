@@ -1,0 +1,8 @@
+.gitigonre
+test.py
+*.txt
+tmp
+experiments/
+**/__pycache__/
+**/file/
+controller_0.py

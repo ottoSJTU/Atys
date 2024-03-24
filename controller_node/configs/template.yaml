@@ -1,0 +1,9 @@
+type: "process" #target program type: container or process
+service_name: "hello world" #traget service name
+option: #parameters for profiling
+    - 
+      dur: 10 #time window width
+      freq: 100 #sampling frequency
+      tracked_funcs: 10 #number of tracked functions for each instance
+      wait_time: 10 #wait time after each time window
+      description: “description” #metric description
